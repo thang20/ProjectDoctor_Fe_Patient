@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F6F5"
+    tools:context=".profile_interface.ProfileDataScheduleAdd">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imv_home_home1_appointment_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_23">
+
+                    </ImageView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:text="Book an appointment"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </Toolbar>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_marginHorizontal="15dp"
+               android:textSize="20dp"
+               android:text="Select type of examination"
+               android:textColor="#000000"
+               android:textStyle="bold"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+           </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="100dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_service"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Service">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="160dp"
+                android:layout_height="60dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_hService"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Health services">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="20dp"
+            android:text="Select Date/Time for appointment"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="20dp"
+            android:text="Date for appointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <EditText
+            android:paddingStart="15dp"
+            android:id="@+id/spn_home_home1_appointment_date"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#ECEFEF"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+        </EditText>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="15dp"
+            android:textSize="20dp"
+            android:text="Time for appointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time1"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="7:30">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time2"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="8:30">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time3"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="9:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time4"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="9:30">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time5"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time6"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10:30">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time7"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="11:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time8"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="11:30">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time9"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="12:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time10"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="13:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time11"
+                    android:backgroundTint="#EFECED"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="13:30">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/carepay"
+                    android:backgroundTint="#ECEFEF"
+                    android:gravity="center"
+                    android:text="14:00"
+                    android:textSize="18dp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/carepay"
+                    android:backgroundTint="#ECEFEF"
+                    android:gravity="center"
+                    android:text="16:00"
+                    android:textSize="18dp">
+
+                </TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time13"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="14:30">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time14"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="15:00">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time15"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="15:30">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_marginStart="15dp"
+                android:layout_width="84dp"
+                android:layout_height="50dp">
+                <TextView
+                    android:id="@+id/txt_home_home1_appointment_time16"
+                    android:backgroundTint="#ECEFEF"
+                    android:background="@drawable/carepay"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="16:00">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_home_home1_appointment_next"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#2BC4BF"
+            android:text="Continue"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MYAPP"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".home.CallDoctorDT"
+            android:exported="false" />
+        <activity
+            android:name=".home.DoctorForSpec"
+            android:exported="false" />
+        <activity
+            android:name=".home.AllSpecCall"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileRecodMedical"
+            android:exported="false" />
+        <activity
+            android:name=".home.ResponsUser"
+            android:exported="false" />
+        <activity
+            android:name=".home.RSSkin"
+            android:exported="false" />
+        <activity
+            android:name=".home.HeraSkin"
+            android:exported="false" />
+        <activity
+            android:name=".home.InforService"
+            android:exported="false" />
+        <activity
+            android:name=".home.Services"
+            android:exported="false" />
+        <activity
+            android:name=".home.PostQAToDoctor"
+            android:exported="false" />
+        <activity
+            android:name=".home.QADoctor"
+            android:exported="false" />
+        <activity
+            android:name=".home.RSXray"
+            android:exported="false" />
+        <activity
+            android:name=".home.HeraXray"
+            android:exported="false" />
+        <activity
+            android:name=".home.Hera"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileHistory"
+            android:exported="false" />
+        <activity
+            android:name=".home.OnlinePharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".home.TestAtHomeFinal"
+            android:exported="false" />
+        <activity
+            android:name=".home.TestAtHomeCheckAddress"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataRemind"
+            android:exported="false" />
+        <activity
+            android:name=".home.CheckAll"
+            android:exported="false" />
+        <activity
+            android:name=".home.TakeDateTime"
+            android:exported="false" />
+        <activity
+            android:name=".home.Specialist"
+            android:exported="false" />
+        <activity
+            android:name=".home.AllRelative"
+            android:exported="false" />
+        <activity
+            android:name=".home.AllHospital"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".hospital.LocationHospital"
+            android:exported="false" />
+        <activity
+            android:name=".New_interface.Comment_New"
+            android:exported="false" />
+        <activity
+            android:name=".New_interface.Create_New_Post"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.CheckTransferToBank"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.TransferToBank"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.CheckPassFinish"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.CheckPass"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.CheckTranferToCarePay"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.TranferToCarePay"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.Transfer"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.Withdraw"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.DepositandWithdraw"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.LinktoCard"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.MyCarePay"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckInf"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckPaperTowDone"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckPaperTow"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckPaperDone"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckPaper"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckFaceDone"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.CheckFace"
+            android:exported="false" />
+        <activity
+            android:name=".carepaynonactive_interface.IDCard"
+            android:exported="false" />
+        <activity
+            android:name=".carepayactive_interface.CarepayRegister"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataIntroduce"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataterm"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataChangepass"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataCommet"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataNotification"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDatascreenlock"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataScheduleAdd"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataSchedule"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataDeclaration"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataDonation"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataEndow"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileRelativeDataAdd"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileDataRelativeDetail"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileRelativeData"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.PointFagment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.PointsFragment"
+            android:exported="false"
+            android:label="@string/title_activity_points_fragment"
+            tools:ignore="MissingClass" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:exported="true" />
+
+        <activity
+            android:name=".profile_interface.ProfileMoney"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.UpdateProfile"
+            android:exported="false" />
+        <activity
+            android:name=".profile_interface.ProfileData"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name=".Adam"></receiver>
+        <service android:name=".Music"
+            android:enabled="true"></service>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

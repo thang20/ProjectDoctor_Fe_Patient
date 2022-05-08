@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ln_profile_donation_point"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/aclonica"
+        android:textSize="17sp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#000000"
+        android:text="enter information on the Point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:textSize="17dp"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#000000"
+        android:text="Amount to deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:inputType="number"
+        android:drawableRight="@drawable/coin"
+        android:id="@+id/edt_profile_donation1pam"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+    <Button
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btn_profile_money_adddonation1p"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="283dp"
+        android:backgroundTint="#2BC4BF"
+        android:text="Donation"
+        android:textAllCaps="false" />
+
+</LinearLayout>

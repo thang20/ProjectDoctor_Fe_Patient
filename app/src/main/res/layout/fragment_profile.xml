@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:background="#F8F6F5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:layout_marginStart="15dp"
+                    android:layout_weight="1.4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="NestedWeights">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_gravity="center"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/rcv_profile_image"
+                        android:layout_width="100dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/profile"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FAF9F9"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="15dp"
+                    android:weightSum="2"
+                    android:orientation="vertical"
+                    android:layout_weight="3.6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+                        <TextView
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/txt_profile_fullname"
+                            android:textColor="#000000"
+                            android:fontFamily="@font/aclonica"
+                            android:textSize="18sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/txt_profile_phone"
+                            android:textSize="18sp"
+                            android:text="@string/no_phone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+
+
+                    </LinearLayout>
+                    <LinearLayout
+
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp">
+
+                        <Button
+                            android:id="@+id/btn_profile_upDateProfile"
+                            android:layout_width="285dp"
+                            android:layout_height="48dp"
+                            android:layout_marginTop="8dp"
+                            android:backgroundTint="#2BC4BF"
+                            android:text="Updated Profiles"
+                            android:textAllCaps="false" />
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#D6D3D3"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+
+                android:layout_height="155dp">
+                <LinearLayout
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:background="#fff"
+                        android:layout_marginEnd="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center|right"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:src="@drawable/pay"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </ImageView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:weightSum="2"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:gravity="center|left"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <TextView
+                                    android:text="Surplus Y.DT"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <TextView
+                                    android:id="@+id/txt_profile_money"
+                                    android:textColor="#000000"
+                                    android:text="0.00 USD"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:background="#fff"
+                        android:layout_marginLeft="1dp"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <LinearLayout
+                            android:gravity="center|right"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <ImageView
+                                android:layout_marginRight="5dp"
+                                android:src="@drawable/diem"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                            </ImageView>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:weightSum="2"
+                            android:orientation="vertical"
+                            android:layout_weight="2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent">
+                            <LinearLayout
+                                android:gravity="center|left"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <TextView
+                                    android:text="Accumulated"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp">
+                                <TextView
+                                    android:id="@+id/txt_profile_point"
+                                    android:textColor="#000000"
+                                    android:text="0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                </TextView>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#fff"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:layout_marginStart="15dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/btn_profile_addmn"
+                            android:layout_margin="5dp"
+                            android:textAllCaps="false"
+                            android:textColor="#2BC4BF"
+                            android:backgroundTint="#EFF4F4"
+                            android:text="Recharge to CarePay Y.DT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        </Button>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginEnd="15dp"
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/btn_profile_add_point"
+                            android:layout_margin="5dp"
+                            android:textAllCaps="false"
+                            android:textColor="#2BC4BF"
+                            android:backgroundTint="#EFF4F4"
+                            android:text="Withdraw balance to CarePay Y.DT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                        </Button>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_profile_data1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F8F6F5"
+                    android:overScrollMode="never"
+                    android:nestedScrollingEnabled="false">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcv_profile_data2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F8F6F5"
+                    android:nestedScrollingEnabled="false">
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:paddingBottom="27dp">
+                <LinearLayout
+                    android:layout_weight="1.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <Button
+                        android:id="@+id/btn_profile_logout"
+                        android:height="55dp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:text="Logout"
+                        android:textSize="20sp"
+                        android:layout_marginHorizontal="15dp"
+                        android:backgroundTint="#FF0000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="SpeakableTextPresentCheck">
+
+                    </Button>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center|right"
+                    android:layout_weight="0.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:layout_marginRight="15dp"
+                        android:text="Version 1.0.0"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </Button>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

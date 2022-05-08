@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_interface.ProfileDataScheduleAdd">
+    <LinearLayout
+        android:background="#F8F6F5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/imv_carepay_active_trading_home"
+                        android:src="@drawable/homecare"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content">
+
+                    </ImageView>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:text="Trading results"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </Toolbar>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+
+        android:weightSum="10"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:background="@drawable/carepay"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <ImageView
+                android:src="@drawable/gdtc"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:gravity="center"
+                android:text="Successful transaction"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:id="@+id/txt_carepay_active_trading_money"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="1000.00 USD"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="4.5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <TextView
+                android:background="#EDFDFD"
+                android:id="@+id/txt_carepay_active_trading_inf"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:text="You have successfully transferred the amount of 157.00 USD to account holder NGUYEN NGOC THANG CarePay(0972809182)"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </TextView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:text="Payment time"
+                    android:gravity="center|left"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txt_carepay_active_trading_time"
+                    android:layout_marginStart="10dp"
+                    android:text="13:58 - 15/2/2022"
+                    android:gravity="center|left"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:text="Trading code"
+                    android:gravity="center|left"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="#03A9F4"
+                    android:layout_marginStart="10dp"
+                    android:text="21121423997"
+                    android:gravity="center|left"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_carepay_active_trading_share"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#2BC4BF"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/white"
+        android:text="Share"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/btn_carepay_active_trading_more"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2BC4BF"
+        android:text="Transfer more"
+        android:textAllCaps="false" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

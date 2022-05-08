@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/home"
+        android:id="@+id/firstFragment"
+        android:icon="@drawable/home1"/>
+
+    <item android:title="@string/hospital"
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/hospitor1"/>
+
+    <item android:title="@string/congdong"
+        android:id="@+id/thirstFragment"
+        android:icon="@drawable/public1"/>
+
+    <item android:title="@string/carepay"
+        android:id="@+id/fourFragment"
+        android:icon="@drawable/pay1"/>
+
+    <item android:title="@string/profile"
+        android:id="@+id/fiveFragment"
+        android:icon="@drawable/profile1"/>
+</menu>

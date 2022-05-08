@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:weightSum="2"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="15dp"
+    android:orientation="horizontal"
+    android:layout_height="140dp"
+    android:layout_marginBottom="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/ln_home_homeOne_spec_next1"
+        android:weightSum="4"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/carepay"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/home_homeOne_spec_image1"
+                android:src="@drawable/khoa1"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="2.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/home_homeOne_spec_name1"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textSize="17dp"
+                android:text="Check the amount of therapeutic materials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_home_homeOne_spec_next2"
+        android:weightSum="4"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/carepay"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/home_homeOne_spec_image2"
+                android:src="@drawable/khoa1"
+                android:layout_width="70dp"
+                android:layout_height="70dp">
+
+            </ImageView>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_weight="2.2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/home_homeOne_spec_name2"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:paddingStart="10dp"
+                android:textSize="17dp"
+                android:text="Check the amount of therapeutic materials"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F8F6F5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imv_doctor_detail_spec_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_23">
+
+                </ImageView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:gravity="center"
+                    android:text="Doctor Information"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:backgroundTint="#fff"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:background="@drawable/carepay"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:layout_weight="1.3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/rcv_doctor_detail_spec_face"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:src="@drawable/profile"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FAF9F9"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_weight="3.7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="18dp"
+                    android:id="@+id/txt_doctor_detail_spec_namefront"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/aclonica"
+                    android:text="@string/no_name"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/txt_doctor_detail_spec_hospitalfront"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Change photo"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginHorizontal="10dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_doctor_detail_spec_call"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="#2BC4BF"
+            android:text="Call"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:src="@drawable/homeonext"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+
+            </ImageView>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:text="Doctor Information"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/carepay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="10dp"
+                        android:text="Name"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center|right"
+                    android:layout_weight="1.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txt_doctor_detail_spec_name"
+                        android:textStyle="bold"
+                        android:paddingEnd="10dp"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="0.6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Hospital"
+                        android:textSize="18sp">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center|right"
+                    android:layout_weight="1.4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txt__doctor_detail_spec_hospital"
+                        android:textStyle="bold"
+                        android:paddingEnd="10dp"
+                        android:padding="10dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="0.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="10dp"
+                        android:text="Specialist"
+
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center|right"
+                    android:layout_weight="1.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txt__doctor_detail_spec_spec"
+                        android:textStyle="bold"
+                        android:paddingEnd="10dp"
+                        android:padding="10dp"
+                        android:text="10/10/2000"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center|left|top"
+
+                    android:layout_weight="0.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:padding="10dp"
+                        android:text="Address"
+
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center|right|top"
+
+                    android:layout_weight="1.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/txt_doctor_detail_spec_address"
+                        android:textStyle="bold"
+                        android:paddingEnd="10dp"
+                        android:padding="10dp"
+                        android:text="17:30"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+            <ImageView
+                android:src="@drawable/homeonext2"
+                android:layout_width="50dp"
+                android:layout_height="50dp">
+
+            </ImageView>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:text="Doctor Certificate"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/imv_doctor_detail_spec_chungchi"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#F8F6F5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

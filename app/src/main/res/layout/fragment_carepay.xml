@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#F8F6F5"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:background="#F8F6F5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:id="@+id/txt_carepay_non_name"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+                    android:text="Hello Nguyen Ngoc Thang!"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_margin="10dp"
+                    android:text="Create CarePay to pay for Y.DT services"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:background="@drawable/carepay"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:textSize="20sp"
+                            android:textColor="#000000"
+                            android:layout_margin="10dp"
+                            android:text="Create CarePay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+                        <TextView
+                            android:layout_margin="10dp"
+                            android:text="Pay for all Y.DT services without cash. Verify your profile to get started"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:gravity="center"
+                        android:background="#FFFFFF"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:src="@drawable/carepay3"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp">
+
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:background="#F8F6F5"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ln_carepay_non_start"
+                    android:layout_weight="0.95"
+                    android:background="#FFFFFF"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp">
+                    <TextView
+                        android:textColor="#2BC4BF"
+                        android:layout_marginStart="10dp"
+                        android:padding="10dp"
+                        android:text="Start now"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <ImageView
+                        android:layout_marginStart="180dp"
+                        android:padding="10dp"
+                        android:src="@drawable/carepay1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:background="@drawable/carepay"
+                android:layout_width="match_parent"
+                android:layout_height="480dp">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+                    android:text="Carepay creation process"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+                    android:text="Step 1: Identity Verification (eKYC)"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="1. Confirm phone number, ID card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="2. Take pictures of documents and faces"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="3. Record and verify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="4. Check the information and confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="5. Done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+                    android:text="Step 2: Activate CarePay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="1. Enter your permanent or temporary residence address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="2. Enter the electronic signature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="3. Check the information and submit the request"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="4. Enter the OPT code and confirm CarePay activation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#000000"
+                    android:layout_marginStart="30dp"
+                    android:text="5. Done"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:weightSum="4"
+                android:orientation="vertical"
+                android:layout_margin="20dp"
+                android:background="#F8F6F5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_margin="10dp"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

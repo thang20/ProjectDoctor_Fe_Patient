@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E9F6F6"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_interface.ProfileDataScheduleAdd">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:textSize="23sp"
+                    android:textColor="#000000"
+                    android:text="Welcome to Y.DT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+                <TextView
+                    android:textSize="23sp"
+                    android:textColor="#000000"
+                    android:text="Which service do you want to use?"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ln_home1"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home11"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Book an appointment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ln_home2"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home22"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Test at home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ln_home3"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home33"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Online pharmacy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_home4"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home44"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Dr.Hera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_home5"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home55"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Call/chat with a doctor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_home6"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home66"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Q&amp;A"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_home7"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/carepay"
+                android:weightSum="5"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home88"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center|left"
+                    android:layout_weight="3.7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_marginStart="20dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:text="Other health services"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="0.3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:src="@drawable/home99"
+                        android:layout_width="20dp"
+                        android:layout_height="40dp">
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

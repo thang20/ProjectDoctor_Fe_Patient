@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#FFFFFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Toolbar
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imv_profile_declaration_back"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/img_23">
+
+                        </ImageView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:text="Health declaration"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textSize="17sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        </TextView>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="0.5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+            </Toolbar>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F6F5"
+            tools:context=".profile_interface.UpdateProfile">
+            <LinearLayout
+                android:background="#FFFFFF"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Full name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_fullName"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_phone"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Date of birth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_dataOfBirth"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/spl_profile_declaration_gender"
+                        android:padding="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </Spinner>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Province"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_province"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="District"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_district"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Wards"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_wards"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18dp"
+                        android:text="Address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <EditText
+                        android:id="@+id/edt_profile_declaration_address"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="#F8F6F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp">
+
+                    </EditText>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:background="#F8F6F5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <TextView
+                        android:textColor="#2196F3"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="Have you had any of the following symptoms in the past 14 days?"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="5.95"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="signal"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="yes"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="no"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Fever"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rdg_fever"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                            <RadioButton
+                                android:id="@+id/rdg_fever1"
+                                android:paddingStart="10dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_width="30dp"
+                                android:layout_height="wrap_content">
+
+                            </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rdg_fever2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Cough"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_cou"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_cou1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_cou2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Sore throat"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_so"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_so1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_so2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Loss of taste/Loss of smell"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_lo"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_lo1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_lo2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Feeling tired"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_fee"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_fee1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_fee2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Shortness of breath"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_sho"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_sho1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_sho2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Other Symptoms/Signs"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_oth"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_oth1"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_oth2"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:background="#F8F6F5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:background="#FFFFFF"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <TextView
+                        android:textColor="#2196F3"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:text="During the past"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="5.95"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="Epidemiological factors"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="yes"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center"
+                        android:text="no"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="1. Are you suffering from COVID-19?"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_ar"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_ar1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_ar2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="2. Close contact with an infected or suspected COVID-19 case within the past 14 days."
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_cl"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_cl1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_cl2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="3. Traveled from another country or territory within the last 14 days."
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_tra"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_tra1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_tra2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="4. Have you finished the group quarantine within the past 14 days?"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_ha"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_ha1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_ha2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="5. In the past 14 days, has anyone in your family/work had a fever or cough?"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_in"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_in1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_in2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginHorizontal="5dp"
+                    android:background="#F8F6F5"
+                    android:weightSum="6"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp">
+                    <TextView
+                        android:textColor="#000000"
+                        android:textSize="18dp"
+                        android:paddingStart="5dp"
+                        android:background="#FFFFFF"
+                        android:layout_margin="1dp"
+                        android:gravity="center|left"
+                        android:text="6. Have you been discharged from hospital due to treatment for COVID-19 within the past 14 days?"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+                    </TextView>
+                    <RadioGroup
+                        android:id="@+id/rgr_have"
+                        android:layout_margin="1dp"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:background="#FFFFFF"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent">
+
+
+
+                        <RadioButton
+                            android:id="@+id/rgr_have1"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/rgr_have2"
+                            android:layout_marginTop="24dp"
+                            android:paddingStart="10dp"
+                            android:layout_marginStart="35dp"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content">
+
+                        </RadioButton>
+
+
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:id="@+id/btn_profile_declaration_send"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#2BC4BF"
+                    android:text="Send"
+                    android:textAllCaps="false" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

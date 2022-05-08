@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile_interface.ProfileDataScheduleAdd">
+    <LinearLayout
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Toolbar
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imv_profile_term_back"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_23">
+
+                    </ImageView>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:text="Terms of use"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="17sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                    </TextView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="0.5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </Toolbar>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="By accessing the Y.DT - Pocket General Hospital application and contacting us, You acknowledge that You have read and understood this Privacy Policy, collection and handling principles information contained therein.
+The Privacy Policy was first updated on September 14, 2018. We may change this Policy from time to time, so please check back often for any updates."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Limit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="This Privacy Policy describes in detail our policy and principles regarding the collection, use and disclosure of information about You.
+We understand that providing information online requires a lot of trust from you. We take this trust very seriously and place a high priority on ensuring the safety and security of the personal information you provide to us when you visit the Website or contact us. we.
+What information do we collect from you?
+How We Use Your Information
+How long do we keep your information?
+Your rights and choices regarding the collection and use of your information
+Children's privacy
+External Links
+Changes to this Privacy Policy
+How can you contact us?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="General information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="We receive and store any information that you enter into our Website or otherwise provide to us. This information includes information that can be used to identify You as an individual or to contact You directly (“personal information”).
+Personal Information includes information that you provide to us such as your first and last name, phone number, mailing and email address, username and password, and payment information (such as your credit card number, cardholder name and card expiration date). You can choose not to provide us with personal information, but usually, some information about you is required for you to gain trust from both parties as well as partners. by DR.OH - Pocket General Hospital. In addition, certain information is required so that you can ask us questions or initiate other transactions on our website.
+We may also collect other information such as your IP address, information that identifies your device and website browsing history to the extent that information refers to you."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Security for WEBSITE"
+            android:textColor="#000000"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="You will have the opportunity to provide contact information and information regarding DR.OH - Pocket General Hospital to others through our Website. When providing, copying links must comply with the principle of preservation and integrity of the link address. It is strictly forbidden to include: the acts, use of images, website information, volunteer programs, advocacy campaigns for personal purposes, or without the permission of DR.OH - Hospital pocket polyclinic."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Automatically collect information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="We automatically collect certain information from your computer or Device when you visit. For example, we will collect session data, including Your IP address, web browser software, and the web page you refer to. We may also collect information about your online activity, such as content viewed, pages visited and searches."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:layout_margin="10dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="Donation Information"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="We may provide members with the option to save information regarding donation methods and choices on our Website. If You save such donation transaction details on the website, You will be able to add, remove or modify such information at any time in your Account Settings."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Location and other information from the device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="When You use an Application on a Device, we will collect and use information about You in generally similar ways and for the same purposes as when You use the website. . In addition, we may collect information about Your location if You have instructed the Device to send this information to the Application through the privacy settings on that Device, or if You have downloaded Upload a photo with location information."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Cookies and other web technologies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="We collect information through cookies and other similar technologies (such as web beacons). Cookies are small text files that are automatically stored on your computer or mobile device when you visit most websites. They are stored by your Internet browser. Cookies contain basic information about your Internet use. Your browser will send these cookies back to the website each time you visit, so that the website can recognize your computer or mobile device and personalize ."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="How We Use Your Information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="General purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="The DR.OH - Pocket General Hospital app uses the information we collect about you for the following general purposes:
+register and manage Your account, including allowing You to access and use our website;
+communicating with You in general, including providing information about DR.OH - Pocket General Hospital;
+answer frequently asked questions;
+evaluate interest in and improve our programs and Websites;
+inform you of the programs and plans of advocacy campaigns;
+receive information from you, including through surveys about volunteer programs;
+resolve disputes or troubleshoot problems;
+prevent potentially illegal or prohibited activities from occurring;
+enforce our Terms of Use and other purposes notified to You at the time of collection;
+announce the results of advocacy programs as well as the use of those assets in the program.
+If you have registered as a member we will email you to the email address you provided to us.
+Units of the Fund and our affiliates. We may share your personal information within DR.OH Pocket General Hospital. This sharing allows us to provide you with information about plans and advocacy programs that may be of interest to you."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="How long do we keep your information?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="We may retain certain information related to your account in our records, including information for analysis purposes as well as to ensure the integrity of the account. recordkeeping. The length of time we retain your information depends on the purposes for which we collect and use it. We may retain certain information for a period of time after you have closed your account on our website in case this is necessary to fulfill your legal obligations. our management and to exercise, defend or establish legal rights."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Your rights and choices regarding the collection and use of your information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="You can choose not to provide us with your personal information.
+You have the right to inquire about what personal information we hold about you by contacting us at the address below (see “Contact Us”).
+You may also add or update information and close your account as described above."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Please note that we may send you other communications."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="The Help section of the toolbar on most browsers will tell you how to prevent your browser from accepting new cookies, how to set your browser to notify you when you receive new cookies, or how disable cookies completely. Please note that if you refuse to accept cookies from the DR.OH website, you will not be able to access certain parts of our website."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Children's privacy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Y.DT - Pocket General Hospital is an electronic information page aimed at benefactors, joining hands to contribute to help disadvantaged people have a better life, especially beneficiaries are children in extremely difficult circumstances, suffering from dangerous diseases. If an individual whom we determine to be a child with insufficient civil capacity sends us personal information in the hope of cooperation, we will delete or destroy such information as soon as possible."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="External Links"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Our websites may include links to third party websites. If you access other websites from the links provided on our Websites, the operators of those websites may collect your information and use use such information in accordance with their privacy policy which may differ from our Privacy Policy. We recommend that you check the privacy statements posted on such other websites to understand their procedures for collecting, using and disclosing personal information."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="Changes to this Privacy Policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="I will note the date of last modification to this Privacy Policy at the bottom of this page and any revisions will be effective upon posting. We will notify our members of material changes to this Privacy Policy by sending a notice to the email address You provide us or by posting a notice. reported on our Website. We encourage you to check this Privacy Policy regularly for the most current version."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="How can you contact us?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:text="If you have any questions or need assistance, please contact us at: info@droh.co."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_margin="10dp"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>
